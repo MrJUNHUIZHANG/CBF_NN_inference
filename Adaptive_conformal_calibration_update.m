@@ -25,7 +25,7 @@ end
 position=ceil((b+1)*(1-alpha_t));
 
 if position>b
-   position=b;     %Use previous step as R_imax estimate
+   position=b;    
 end
 qn2_k=calibration_residual_sort(position)+0.01;
 end
